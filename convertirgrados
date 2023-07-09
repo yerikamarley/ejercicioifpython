@@ -1,0 +1,13 @@
+grados=0
+valorgrado=0
+grados = int(input("indique 1 si desea convertir a grados fahrenheit o 2 y si desea convertir a celsius"))
+valorgrado = int(input("ingrese los grados de forma numerica que desea convertir"))
+   
+if 1 == grados:
+  fa=(1.8 * valorgrado)+32
+  print("la convercion a fahrenhetit es:",fa)
+elif 2 ==grados:
+  ce=(valorgrado - 32)/1.8
+  print("la converción a celsius es:",ce)
+else:
+  print("ingrese una opción correcta")
